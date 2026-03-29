@@ -6,7 +6,7 @@ def check_spam(text: str) -> tuple:
     # 스팸 키워드 목록
     spam_keywords = [
         "free", "win", "winner", "prize", "click", 
-        "buy now", "urgent", "cash", "money", "offer", "deal", "now"
+        "buy now", "urgent", "cash", "money", "offer", "deal"
     ]
     
     hit = 0
