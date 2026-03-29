@@ -21,7 +21,7 @@
             .then(res => res.json())
             .then(data => {
                 document.getElementById("result").innerText = 
-                    "결과: " + data.label + " (score=" + data.score + ")";
+                    "결과: " + data.label + " (점수=" + data.score + ")";
             })
             .catch(() => {
                 document.getElementById("result").innerText = "에러 발생";
